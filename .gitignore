@@ -1,0 +1,50 @@
+Environment variables and API keys
+
+.env
+.env.*
+!.env.example
+
+Python cache files
+
+pycache/
+*.py[cod]
+*$py.class
+
+Virtual environments
+
+venv/
+.venv/
+env/
+
+Jupyter Notebook checkpoints
+
+.ipynb_checkpoints/
+
+IDE settings
+
+.vscode/
+.idea/
+
+macOS system files
+
+.DS_Store
+
+Logs
+
+*.log
+
+FAISS vector database (generated locally)
+
+faiss_db/
+
+Python distribution
+
+dist/
+build/
+*.egg-info/
+
+Testing and coverage
+
+.pytest_cache/
+.coverage
+htmlcov/
